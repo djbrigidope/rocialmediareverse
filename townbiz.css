@@ -1,112 +1,104 @@
-
-
-.topFlex{
-  display: -webkit-flex;
+.topflex-container {
   display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
-  justify-content: center;
-  text-align: right;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  height: 77px;
+}
 
+.logo {
+  width: 176px;
+  height: 35px
+}
+
+.search-bar{
+  width: 200px;
+  height: 15px;
+  border: 1px black grey;
+  border-radius: 3px;
 
 }
 
+.app-button{
+  width: 100px;
+  height: 28px;
+  padding: 10px;
+  background-color: #3897f0;
+  border-radius: 3px;
+  color: white;
+}
 
-.midFlex{
-  display: -webkit-flex;
+.sign-button {
+  width: 100px;
+  height: 28px;
+  padding: 10px;
+  border-radius: 3px;
+  color: #3897f0;
+}
+
+.log-button {
+  width: 100px;
+  height: 28px;
+  padding: 10px;
+  border-radius: 3px;
+  color: #3897f0;
+}
+
+.midflex-container {
   display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
-  justify-content: center;
-  text-align: right;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  height: 275px;
+  width: 900px;
 }
 
-
-
-.bodyFlex{
-  display: -webkit-flex;
-  display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
-  justify-content: center;
-  text-align: right;
+.townbiz_logo {
+  justify-content: flex-end;
+  border-radius: 200%;
+  width: 176px;
+  height: 35px;
+  margin-left: 300px;
 }
 
-.bottomFlex{
-  display: -webkit-flex;
-  display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
-  justify-content: center;
-  text-align: right;
+.radius {
+border-radius: 47%;
 
 }
 
-.topFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
+.mid-object1 {
+  justify-content: flex-end;
+  height: 200px;
+  width: 400px;
+  margin-right: 5px;
+  padding-left: 100px;
 }
 
-.midFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
+.obtopA {
+  background-color: red;
+  font: proxima-nova, Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 300px;
+
 }
 
-.bodyFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
+.obtopA button {
+
+
 }
+.mid-object2 {
+  background-color: orange;
+  height: 200px;
+  width: 800px;
+  padding-left: 0px;
+  display: inline;
+  }
 
-.bottomFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
+.mid-obtop2 {
+  float:left;
 }
-
-
-@media only screen
-    and (min-device-width : 375px) // or 213.4375em or 3in or 9cm
-    and (max-device-width : 667px) // or 41.6875em
-    and (width : 667px) // or 41.6875em
-    and (height : 375px) // or 23.4375em
-    and (orientation : landscape)
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 667/375)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2)
-    {
-}
-
-
-@media only screen
-    and (min-device-width : 375px) // or 213.4375em
-    and (max-device-width : 667px) // or 41.6875em
-    and (width : 375px) // or 23.4375em
-    and (height : 559px) // or 34.9375em
-    and (orientation : portrait)
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 375/559)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2)
-{ }
