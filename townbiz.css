@@ -1,112 +1,132 @@
-
-
-.topFlex{
-  display: -webkit-flex;
+.topflex-container {
   display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
-  justify-content: center;
-  text-align: right;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  height: 77px;
+}
 
+.logo {
+  width: 176px;
+  height: 35px
+}
+
+.search-bar{
+  width: 200px;
+  height: 15px;
+  border: 1px black grey;
+  border-radius: 3px;
 
 }
 
+.app-button{
+  width: 100px;
+  height: 28px;
+  padding: 10px;
+  background-color: #3897f0;
+  border-radius: 3px;
+  color: white;
+}
 
-.midFlex{
-  display: -webkit-flex;
+.sign-button {
+  width: 100px;
+  height: 28px;
+  padding: 10px;
+  border-radius: 3px;
+  color: #3897f0;
+}
+
+.log-button {
+  width: 100px;
+  height: 28px;
+  padding: 10px;
+  border-radius: 3px;
+  color: #3897f0;
+}
+
+.midflex-container {
   display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
-  justify-content: center;
-  text-align: right;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  background-color: #fff;
+
+  height: 275px;
+  width: 900px;
+}
+.mid-object1 {
+  justify-content: flex-end;
+  height: 200px;
+  width: 400px;
+  margin-right: 5px;
+  padding-left: 100px;
 }
 
-
-
-.bodyFlex{
-  display: -webkit-flex;
-  display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
-  justify-content: center;
-  text-align: right;
+.townbiz_logo {
+  justify-content: flex-end;
+  border-radius: 200%;
+  width: 176px;
+  height: 35px;
+  margin-left: 300px;
 }
 
-.bottomFlex{
-  display: -webkit-flex;
-  display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
-  justify-content: center;
-  text-align: right;
+.radius {
+  border-radius: 47%;
+}
+
+.mid-object2 {
+  /*display: flex;*/
+  /*align-content: flex-start;*/
+  height: 200px;
+  width: 800px;
+  padding-left: 0px;
+}
+/*.follow-button {
+  margin: 100px;
+}*/
+
+.obtopA {
+  /*display:flex;
+  align-items: flex-start;*/
+  font-family: proxima-nova, Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  line-height: 54px;
+  font-weight: 300px;
+  height: 60px;
 
 }
 
-.topFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
+.obtopA button {
+  font: 50px;
+  width: 100px;
+  height: 28px;
+  padding: 10px;
+  background-color: #3897f0;
+  border-radius: 3px;
+  color: white;
 }
 
-.midFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
+.follow-button {
+  margin-left: 20px;
 }
 
-.bodyFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
+.second-section-text{
+  font-family: proxima-nova, Helvetica Neue, Arial, Helvetica, sans-serif;
+  margin-right: 20px;
 }
 
-.bottomFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
+.obtopB {
+  display:flex;
+  height: 55px;
 }
 
-
-@media only screen
-    and (min-device-width : 375px) // or 213.4375em or 3in or 9cm
-    and (max-device-width : 667px) // or 41.6875em
-    and (width : 667px) // or 41.6875em
-    and (height : 375px) // or 23.4375em
-    and (orientation : landscape)
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 667/375)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2)
-    {
+.obtopC {
+  height: 85px;
+  font-family: proxima-nova, Helvetica Neue, Arial, Helvetica, sans-serif;
 }
 
+.third-section-text {
 
-@media only screen
-    and (min-device-width : 375px) // or 213.4375em
-    and (max-device-width : 667px) // or 41.6875em
-    and (width : 375px) // or 23.4375em
-    and (height : 559px) // or 34.9375em
-    and (orientation : portrait)
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 375/559)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2)
-{ }
+}
