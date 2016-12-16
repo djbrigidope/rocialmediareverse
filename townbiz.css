@@ -1,33 +1,54 @@
 
-
 .topFlex{
   display: -webkit-flex;
   display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
+  background-color: white;
+  flex-direction: row;
   justify-content: center;
   text-align: right;
-
-
+  height: 30px;
 }
-
 
 .midFlex{
   display: -webkit-flex;
   display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
+  background-color: white;
+  width: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.bodyFlex1{
+  display: -webkit-flex;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bodyFlex2{
+  display: -webkit-flex;
+  display: flex;
+  background-color: white;
+  flex-direction: flex-start;
   justify-content: center;
   text-align: right;
 }
 
-
-
-.bodyFlex{
+.bodyFlex3{
   display: -webkit-flex;
   display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
+  background-color: white;
+  flex-direction: flex-start;
+  justify-content: center;
+  text-align: right;
+}
+
+.bodyFlex4{
+  display: -webkit-flex;
+  display: flex;
+  background-color: white;
+  flex-direction: flex-start;
   justify-content: center;
   text-align: right;
 }
@@ -35,53 +56,101 @@
 .bottomFlex{
   display: -webkit-flex;
   display: flex;
-  background-color: black;
-  flex-direction: column-reverse;;
+  flex-direction: row;
   justify-content: center;
-  text-align: right;
-
-}
-
-.topFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
-}
-
-.midFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
-}
-
-.bodyFlexObject{
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  justify-content:flex-end;
-  font-family: sans-serif;
-  font-size: 36px;
 }
 
 .bottomFlexObject{
-  background-color: cornflowerblue;
+  position: absolute;
+  height: 29%;
+  width: auto;
+  background-color: white;
+  flex-direction: column-reverse;;
+  justify-content: center;
+  text-align: right;
+}
+
+.topFlexObject{
+  background-color: white;
+  width: 56px;
+  height: 12px;
+  justify-content:center;
+  font-family: sans-serif;
+  font-size: 9px;
+}
+
+.midleftsquareobj{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.upperMidrightText{
+  background-color: white;
+  width: 60%;
+  height: 30%;
+  margin: 10px;
+  text-align: center;
+  font-family: proxima nova, helvetica, sans-serif;
+  font-size: 1em;
+}
+
+
+
+.midrightText{
+  background-color: white;
+  width: 60%;
+  height: 30%;
+  margin: 10px;
+  text-align: left;
+  font-family: proxima nova, helvetica, sans-serif;
+  font-size: 1,em;
+}
+
+.bodyFlexObject{
+  background-color: white;
   width: 300px;
   height: 400px;
   margin: 10px;
   justify-content:flex-end;
-  font-family: sans-serif;
+  font-family: proxima nova, helvetica, sans-serif;
   font-size: 36px;
 }
 
+.galleryImage{
+  height: 45%;
+  width: auto;
+  margin: 12px;
+}
+
+.circle {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 90%;
+  font-size: 14px;
+  border-width: 10px;
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px #38a9f2;
+}
+
+.circleType{
+  font-family: proxima nova, helvetica, sans-serif;
+  color: #38a9f2
+}
 
 @media only screen
     and (min-device-width : 375px) // or 213.4375em or 3in or 9cm
@@ -110,3 +179,9 @@
     and (device-pixel-ratio : 2)
     and (-webkit-min-device-pixel-ratio : 2)
 { }
+
+
+.logo {
+    width: auto;
+    height: 100%;
+}
