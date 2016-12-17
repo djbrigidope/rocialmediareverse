@@ -4,7 +4,6 @@
   -webkit-box-align: center;
   justify-content: space-between;
   background-color: #fff;
-  border-bottom: 1px solid #dbdbdb;
   height: 77px;
 }
 
@@ -28,6 +27,8 @@
   background-color: #3897f0;
   border-radius: 3px;
   color: white;
+  text-decoration: none;
+
 }
 
 .sign-button {
@@ -64,12 +65,12 @@
   padding-left: 100px;
 }
 
-.townbiz_logo {
+.townbiz-logo {
   justify-content: flex-end;
   border-radius: 200%;
-  width: 176px;
-  height: 35px;
-  margin-left: 300px;
+  width: 175px;
+  height: 175px;
+  margin-left: 10px;
 }
 
 .radius {
@@ -99,13 +100,17 @@
 }
 
 .obtopA button {
-  font: 50px;
+  font-size: 16px;
+  font-weight: 600;
   width: 100px;
-  height: 28px;
   padding: 10px;
-  background-color: #3897f0;
+  padding-right: 10px;
+  background: 0 0;
+  border-color: #3897f0;
   border-radius: 3px;
-  color: white;
+  border-width: 1px;
+  color: #3897f0;
+  line-height: 10px;
 }
 
 .follow-button {
@@ -127,6 +132,21 @@
   font-family: proxima-nova, Helvetica Neue, Arial, Helvetica, sans-serif;
 }
 
-.third-section-text {
+.bottomflex-container {
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 77px;
+  border-top: 2px solid #dbdbdb;
+}
+
+.bottom-style {
+color: #003569;
+text-decoration: none;
+font-size: 12px;
+font-weight: 600;
+font-family: proxima-nova, Helvetica Neue ,Arial ,Helvetica ,sans-serif;
 
 }
